@@ -1,13 +1,13 @@
-import UserResults from "../components/users/UserResults"
+import UserResults from '../components/users/UserResults'
+import UserSearch from '../components/users/UserSearch'
 
 const Home = () => {
-    return (
-        <>
-            <UserResults />
-        </>
-    )
+	return (
+		<>
+			<UserSearch />
+			<UserResults />
+		</>
+	)
 }
-
-
 
 export default Home
